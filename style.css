@@ -319,6 +319,11 @@ h1 {
     font-weight: 500;
 }
 
+#seeall:hover {
+    color: #bdbdbd;
+}
+
+
 #epicuresseeall img {
     align-self: center;
     height: 12px;
