@@ -3,22 +3,22 @@
 }
 
 header {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   height: 40px;
-   padding-left: 10px;
-   padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
-   border-bottom: 1.5px solid rgb(228, 228, 228);
-   font-family: Montserrat;
+    border-bottom: 1.5px solid rgb(228, 228, 228);
+    font-family: Montserrat;
 
 }
 
 #logo {
-    height: 27px;  
-    align-self:center;
+    height: 27px;
+    align-self: center;
 }
 
 
@@ -27,54 +27,417 @@ header {
     flex-direction: row;
     background-color: rgb(228, 228, 228);
     border-radius: 10px;
-    padding: 10px; 
+    padding: 10px;
     width: 30vw;
- }
+}
 
- #searchbar img {
+#searchbar img {
     height: 15px;
     margin-right: 10px;
-    align-self:center;
-   
- }
+    align-self: center;
 
- #searchbar input {
+}
+
+#searchbar input {
     border: 0px;
     background-color: rgb(228, 228, 228);
-    width: 100%;  
- }
+    width: 100%;
+}
 
- #menu {
+#menu {
     display: flex;
     flex-direction: row;
     width: 30vw;
-    justify-content:flex-end;
-    font-weight:530;
- }
+    justify-content: flex-end;
+    font-weight: 530;
+}
 
- #menu img {
+#menu img {
     height: 30px;
- }
+}
 
- #signup {
-     margin-left: 10px;
-     margin-right: 10px;
-     background-color: rgb(228, 228, 228);
-     border-radius: 50px;
-     padding: 10px; 
-     padding-left:13px;
-    padding-right:13px;
- }
+#signup {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.116);
+}
 
- #login {
+#login {
     background-color: #cc1f0c;
     border-radius: 50px;
     color: white;
-    padding: 10px; 
-    padding-left:13px;
-    padding-right:13px;
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.116);
 }
 
- #menu * {
-    align-self:center;
- }
+#menu * {
+    align-self: center;
+}
+
+main {
+    font-family: Montserrat;
+}
+
+/* --------------------------------------RECEPIE------------------------------- */
+
+#recepie {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+#recepieimg {
+    margin-top: 30px;
+    width: 600px;
+    border-radius: 1%;
+}
+
+h1 {
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+#undername {
+    margin-top: 15px;
+    color: #757575;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+#threepartsection {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 15px;
+}
+
+#leftpartsection {
+    display: flex;
+    flex-direction: row;
+}
+
+#separation {
+    align-self: flex-end;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bignumber {
+    font-size: 30px;
+    font-weight: 600;
+    align-self: flex-end;
+}
+
+#rating100 {
+    align-self: flex-end;
+}
+
+.wordclasses {
+    margin-top: 5px;
+    color: #515151;
+}
+
+
+#middlepartsection {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 250px;
+    border-right: 1px solid rgb(236, 236, 236);
+    border-left: 1px solid rgb(236, 236, 236);
+}
+
+
+#middlepartsection img {
+    width: 50px;
+    padding: 2px;
+    border: 2px solid #ccc;
+    border-radius: 100%;
+}
+
+#middlepartsection p {
+    font-weight: 600;
+    color: #424242;
+    margin-top: 5px;
+}
+
+
+
+
+#ingredientstop {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    width: 600px;
+}
+
+#serves {
+    background-color: #f5f5f5;
+    color: #757575;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 13px;
+}
+
+.tittles {
+    font-size: 20px;
+    font-weight: 600;
+    color: #212121;
+}
+
+#recepietext {
+    width: 600px;
+}
+
+#recepietext p {
+    color: #424242;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+
+
+
+.line {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 0px;
+    width: 600px;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+
+
+
+
+
+
+#actions {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 600px;
+}
+
+
+#directionsbutton {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(228, 228, 228);
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 15px;
+    font-weight: 530;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.116);
+}
+
+#directionsbutton img,
+#savebutton img {
+    height: 12px;
+    align-self: center;
+    margin-right: 5px;
+}
+
+#savebutton {
+    display: flex;
+    flex-direction: row;
+    background-color: #cc1f0c;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 530;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.116);
+}
+
+
+
+
+#epicuresseeall {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 600px;
+    height: 10px;
+}
+
+#epi {
+    align-self: center;
+    margin-right: 15px;
+    margin-bottom: 4px;
+}
+
+#epicuresseeall section {
+    display: flex;
+    flex-direction: row;
+}
+
+#seeall {
+    font-size: 14px;
+    align-self: center;
+    margin-right: 10px;
+    color: #616161;
+    font-weight: 500;
+}
+
+#epicuresseeall img {
+    align-self: center;
+    height: 12px;
+}
+
+#more {
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+#foodgrid, #foodgridsecond {
+    gap: 30px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+
+.smalllogofood {
+    width: 17px;
+     height: 17px;
+     align-self: center;
+     margin-right: 5px;
+}
+
+.timeimg {
+    width: 17px;
+     height: 17px;
+     margin-right: 5px;
+}
+
+  
+.middlepart {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.middlepart section {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.source {
+    align-self: center;
+    font-weight: 600;
+    color: #424242;
+    font-size: 15px;
+}
+
+.rating {
+    align-self: center;
+    color: #424242;
+    background-color: white;
+     padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10%;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.116);
+}
+
+
+.bottompart {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+        justify-content: space-between;
+        color: #616161;
+}
+
+.bottompart section {
+    display: flex;
+    flex-direction: row;
+}
+
+.time {
+    font-size: 14px;
+}
+.ratingsmall {
+    font-size: 11px;
+}
+
+
+
+.imagesquare{
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 2%;
+}
+
+.photofood {
+    height: 100%;
+}
+
+.foodname {
+    position: absolute;
+    top: 190px;
+    background-color: rgba(0, 0, 0, 0.472);
+    color: white;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
