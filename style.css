@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+}
+
+header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 40px;
+   padding-left: 10px;
+   padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+   border-bottom: 1.5px solid rgb(228, 228, 228);
+   font-family: Montserrat;
+
+}
+
+#logo {
+    height: 27px;  
+    align-self:center;
+}
+
+
+#searchbar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    padding: 10px; 
+    width: 30vw;
+ }
+
+ #searchbar img {
+    height: 15px;
+    margin-right: 10px;
+    align-self:center;
+   
+ }
+
+ #searchbar input {
+    border: 0px;
+    background-color: rgb(228, 228, 228);
+    width: 100%;  
+ }
+
+ #menu {
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    justify-content:flex-end;
+    font-weight:530;
+ }
+
+ #menu img {
+    height: 30px;
+ }
+
+ #signup {
+     margin-left: 10px;
+     margin-right: 10px;
+     background-color: rgb(228, 228, 228);
+     border-radius: 50px;
+     padding: 10px; 
+     padding-left:13px;
+    padding-right:13px;
+ }
+
+ #login {
+    background-color: #cc1f0c;
+    border-radius: 50px;
+    color: white;
+    padding: 10px; 
+    padding-left:13px;
+    padding-right:13px;
+}
+
+ #menu * {
+    align-self:center;
+ }
